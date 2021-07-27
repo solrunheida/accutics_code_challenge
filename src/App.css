@@ -1,0 +1,45 @@
+.input-field label {
+	color: #262b29;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.input-field input,
+.input-field textarea {
+	border: 1px solid #dddddd;
+	padding: 12px 12px;
+	border-radius: 2px;
+	background: #fff;
+	color: #262b29;
+}
+
+.helper-text {
+	font-size: 12px;
+	color: #666666;
+	margin: 6px 0;
+}
+
+.button {
+	font-size: 14px;
+	line-height: 18px;
+	color: #fff;
+	padding: 8px 16px;
+	background: #4d6ffa;
+	border-radius: 2px;
+}
+
+.button.is-active,
+.button:active,
+.button:hover {
+	color: #fff;
+}
+
+.button[disabled] {
+	background: #797979;
+	color: #000;
+}
+
+.confirmation-label {
+	font-weight: bold;
+	margin-top: 10px;
+}
